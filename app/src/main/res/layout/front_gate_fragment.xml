@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front_gate_background"
+    tools:context="com.community.protectcommunity.FrontGateFragment"
+    tools:ignore="MissingPrefix">
+    <!-- user view -->
+    <!-- set the background according to gender -->
+    <View
+        android:id="@+id/front_gate_fragment_user_view"
+        android:layout_width="120dp"
+        android:layout_height="168dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/mainscreen_boy"/>
+
+    <!-- principle view -->
+    <View
+        android:layout_width="166dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/people_principle"/>
+
+    <!-- jack view -->
+    <View
+        android:layout_width="120dp"
+        android:layout_height="168dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="190dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/people_jack"/>
+
+    <!-- mason view -->
+    <View
+        android:layout_width="120dp"
+        android:layout_height="168dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="320dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/people_mason"/>
+
+    <!-- principle chat box one -->
+    <View
+        android:id="@+id/front_gate_fragment_principle_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/principle_chat_box_one_front_gate"
+        android:visibility="invisible"/>
+
+    <!-- user chat box one -->
+    <View
+        android:id="@+id/front_gate_fragment_user_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/user_chat_box_one_front_gate"
+        android:visibility="invisible"/>
+
+    <!-- principle chat box two -->
+    <View
+        android:id="@+id/front_gate_fragment_principle_chat_box_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/principle_chat_box_two_front_gate"
+        android:visibility="invisible"/>
+
+    <!-- principle chat box three -->
+    <View
+        android:id="@+id/front_gate_fragment_principle_chat_box_three"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/principle_chat_box_three_front_gate"
+        android:visibility="invisible"/>
+
+    <!-- jack chat box one -->
+    <View
+        android:id="@+id/front_gate_fragment_jack_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="280dp"
+        android:background="@drawable/jack_chat_box_one_front_gate"
+        android:visibility="invisible"/>
+
+    <!-- mason chat box one -->
+    <View
+        android:id="@+id/front_gate_fragment_mason_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="150dp"
+        android:background="@drawable/mason_chat_box_one_front_gate"
+        android:visibility="invisible"/>
+
+    <!-- principle chat box four -->
+    <View
+        android:id="@+id/front_gate_fragment_principle_chat_box_four"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/principle_chat_box_four_front_gate"
+        android:visibility="invisible"/>
+
+    <!-- principle chat box five -->
+    <View
+        android:id="@+id/front_gate_fragment_principle_chat_box_five"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/principle_chat_box_five_front_gate"
+        android:visibility="invisible"/>
+
+    <!-- principle chat box six -->
+    <View
+        android:id="@+id/front_gate_fragment_principle_chat_box_six"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/principle_chat_box_six_front_gate"
+        android:visibility="invisible"/>
+
+    <!-- principle chat box two -->
+    <View
+        android:id="@+id/front_gate_fragment_principle_chat_box_seven"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/principle_chat_box_seven_front_gate"
+        android:visibility="invisible"/>
+
+
+    <!-- return to main screen button -->
+    <Button
+        android:id="@+id/return_to_mainscreen_button_front_gate_fragment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/return_button_background"/>
+
+    <!-- next button -->
+    <!-- set visibility temporary to visible, need to change to gone later-->
+    <Button
+        android:id="@+id/next_button_front_gate_fragment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/next_button_background"
+        android:visibility="gone"/>
+
+    <!-- play again button -->
+    <Button
+        android:id="@+id/play_again_button_front_gate_fragment"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/watch_again_background"
+        android:enabled="false"
+        android:visibility="gone"
+        />
+
+    <!-- knowledge point button -->
+    <!-- set visibility temporary to visible, need to change to gone later-->
+    <Button
+        android:id="@+id/knowledge_point_button_front_gate_fragment"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/play_again_button_front_gate_fragment"
+        android:background="@drawable/knowledge_point_background"
+        android:visibility="gone"
+        />
+
+    <!-- skip button -->
+    <Button
+        android:id="@+id/skip_button_front_gate_fragment"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/skip_button_background"
+        />
+</RelativeLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/movie_background"
+    tools:context="com.community.protectcommunity.MovieFragment"
+    tools:ignore="MissingPrefix">
+
+    <!-- story chat box one -->
+    <View
+        android:id="@+id/movie_story_chat_box_one"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="400dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/movie_story_chat_box_one"
+        android:visibility="invisible"/>
+
+    <!-- user and gracie inside the room view -->
+    <!-- set according to gender -->
+    <View
+        android:id="@+id/movie_user_and_gracie_inside_view"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/movie_user_and_gracie_inside_view_boy"
+        android:visibility="invisible"/>
+
+    <!-- lisa inside the room view, scary-->
+    <View
+        android:id="@+id/movie_lisa_inside_view_scary"
+        android:layout_width="146dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/movie_lisa_scary"
+        android:visibility="invisible"/>
+
+    <!-- lisa chat box one -->
+    <View
+        android:id="@+id/movie_lisa_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/movie_lisa_chat_box_one"
+        android:visibility="invisible"/>
+
+    <!-- user chat box one -->
+    <View
+        android:id="@+id/movie_user_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/movie_user_chat_box_one"
+        android:visibility="invisible"/>
+
+    <!-- gracie chat box one -->
+    <View
+        android:id="@+id/movie_gracie_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/movie_gracie_chat_box_one"
+        android:visibility="invisible"/>
+
+    <!-- story chat box two -->
+    <View
+        android:id="@+id/movie_story_chat_box_two"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/movie_story_chat_box_two"
+        android:visibility="invisible"/>
+
+    <!-- option one -->
+    <!-- user chat box two -->
+    <View
+        android:id="@+id/movie_user_chat_box_two"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/movie_user_chat_box_two"
+        android:visibility="invisible"/>
+
+    <!-- lisa inside the room view, normal -->
+    <View
+        android:id="@+id/movie_lisa_inside_view_normal"
+        android:layout_width="146dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/movie_lisa_normal"
+        android:visibility="invisible"/>
+
+    <!-- lisa chat box two -->
+    <View
+        android:id="@+id/movie_lisa_chat_box_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/movie_lisa_chat_box_two"
+        android:visibility="invisible"/>
+
+    <!--option 2-->
+
+    <!-- lisa chat box three -->
+    <View
+        android:id="@+id/movie_lisa_chat_box_three"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/movie_lisa_chat_box_three"
+        android:visibility="invisible"/>
+
+    <!-- gracie chat box two -->
+    <View
+        android:id="@+id/movie_gracie_chat_box_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/movie_gracie_chat_box_two"
+        android:visibility="invisible"/>
+
+    <!-- story chat box three -->
+    <View
+        android:id="@+id/movie_story_chat_box_three"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/movie_story_chat_box_three"
+        android:visibility="invisible"/>
+
+    <!-- lisa inside the room view, unhappy-->
+    <View
+        android:id="@+id/movie_lisa_inside_view_unhappy"
+        android:layout_width="146dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/movie_lisa_unhappy"
+        android:visibility="invisible"/>
+
+
+    <!-- next button -->
+    <!-- set visibility temporary to visible, need to change to gone later-->
+    <Button
+        android:id="@+id/next_button_movie_fragment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/next_button_background"
+        android:visibility="gone"/>
+
+    <!-- play again button -->
+    <Button
+        android:id="@+id/play_again_button_movie_fragment"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/watch_again_background"
+        android:enabled="false"
+        android:visibility="gone"
+        />
+
+    <!-- skip button -->
+    <!-- skip button -->
+    <Button
+        android:id="@+id/skip_button_movie_fragment"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/skip_button_background"
+        />
+
+    <!-- return to main screen button -->
+    <Button
+        android:id="@+id/return_to_mainscreen_button_movie_fragment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/return_button_background"/>
+
+    <!-- knowledge point button -->
+    <!-- set visibility temporary to visible, need to change to gone later-->
+    <Button
+        android:id="@+id/knowledge_point_button_movie_fragment"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/play_again_button_movie_fragment"
+        android:background="@drawable/knowledge_point_background"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

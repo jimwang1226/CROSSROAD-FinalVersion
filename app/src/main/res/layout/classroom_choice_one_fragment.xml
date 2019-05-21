@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/classroom_background"
+    tools:context="com.community.protectcommunity.ClassroomChoiceOneFragment"
+    tools:ignore="MissingPrefix">
+
+    <!-- three character inside the classroom view -->
+    <!-- set the background according to gender -->
+    <View
+        android:id="@+id/classroom_choice_one_three_characters_inside_view"
+        android:layout_width="439dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/three_characters_inside_boy_user_at_front"
+        android:visibility="visible"/>
+
+    <!-- Gracie character view -->
+    <View
+        android:id="@+id/classroom_fragment_gracie_inside_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gracie_inside_classroom"/>
+
+    <!-- story chat box one -->
+    <View
+        android:id="@+id/classroom_choice_one_story_chat_box_one"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/classroom_choice_one_story_one"
+        android:visibility="invisible"/>
+
+    <!-- user chat box one -->
+    <View
+        android:id="@+id/classroom_choice_one_user_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/classroom_choice_one_user_chat_box_one"
+        android:visibility="invisible"/>
+
+    <!-- Gracie chat box one -->
+    <View
+        android:id="@+id/classroom_choice_one_gracie_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/classroom_choice_one_gracie_chat_box_one"
+        android:visibility="invisible"/>
+
+    <!-- Gracie chat box two -->
+    <View
+        android:id="@+id/classroom_choice_one_gracie_chat_box_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/classroom_choice_one_gracie_chat_box_two"
+        android:visibility="invisible"/>
+
+
+    <!-- mason chat box one -->
+    <View
+        android:id="@+id/classroom_choice_one_mason_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="400dp"
+        android:background="@drawable/classroom_choice_one_mason_chat_box_one"
+        android:visibility="invisible"/>
+
+    <!-- user chat box two -->
+    <View
+        android:id="@+id/classroom_choice_one_user_chat_box_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/classroom_choice_one_user_chat_box_two"
+        android:visibility="invisible"/>
+
+    <!-- return to main screen button -->
+    <Button
+        android:id="@+id/return_to_mainscreen_button_classroom_choice_one"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/return_button_background"/>
+
+    <!-- next button -->
+    <!-- set visibility temporary to visible, need to change to gone later-->
+    <Button
+        android:id="@+id/next_button_classroom_choice_one"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/next_button_background"
+        android:visibility="gone"/>
+
+    <!-- play again button -->
+    <Button
+        android:id="@+id/play_again_button_classroom_choice_one"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/watch_again_background"
+        android:enabled="false"
+        android:visibility="gone"
+        />
+
+    <!-- knowledge point button -->
+    <!-- set visibility temporary to visible, need to change to gone later-->
+    <Button
+        android:id="@+id/knowledge_point_button_classroom_choice_one"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/play_again_button_classroom_choice_one"
+        android:background="@drawable/knowledge_point_background"
+        android:visibility="gone"
+        />
+
+    <!--skip button-->
+    <!-- skip button -->
+    <Button
+        android:id="@+id/skip_button_classroom_choice_one_fragment"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/skip_button_background"
+        />
+
+</RelativeLayout>

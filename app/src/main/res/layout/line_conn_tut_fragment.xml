@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/line_conn_game_background"
+    tools:context="com.community.protectcommunity.LineConnectionGameTutFragment"
+    tools:ignore="MissingPrefix">
+    <!-- title -->
+    <View
+        android:id="@+id/line_conn_tut_title"
+        android:layout_alignParentTop="true"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/line_conn_title"
+        android:visibility="visible"/>
+
+    <!-- text examples -->
+    <!-- text 1 -->
+    <View
+        android:id="@+id/line_conn_tut_text_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/line_conn_task_one_text_1_normal"
+        android:visibility="visible"/>
+    <!-- text 2 -->
+    <View
+        android:id="@+id/line_conn_tut_text_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/line_conn_task_one_text_2_normal"
+        android:visibility="visible"/>
+    <!-- text 3 -->
+    <View
+        android:id="@+id/line_conn_tut_text_three"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/line_conn_task_one_text_3_normal"
+        android:visibility="visible"/>
+
+    <!-- pictures -->
+    <!-- pic 1 -->
+    <View
+        android:id="@+id/line_conn_tut_pic_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/line_conn_task_one_pic_1_normal"
+        android:visibility="visible"/>
+    <!-- pic 2 -->
+    <View
+        android:id="@+id/line_conn_tut_pic_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/line_conn_task_one_pic_2_normal"
+        android:visibility="visible"/>
+    <!-- pic 3 -->
+    <View
+        android:id="@+id/line_conn_tut_pic_three"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/line_conn_task_one_pic_3_normal"
+        android:visibility="visible"/>
+
+    <!-- clicked -->
+    <!-- text 1 -->
+    <View
+        android:id="@+id/line_conn_tut_text_one_clicked"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/line_conn_task_one_text_1_clicked"
+        android:visibility="invisible"/>
+    <!-- pic 2 -->
+    <View
+        android:id="@+id/line_conn_tut_pic_two_clicked"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/line_conn_task_one_pic_2_clicked"
+        android:visibility="invisible"/>
+    <!-- example line -->
+    <View
+        android:id="@+id/line_conn_tut_example_line"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line12"
+        android:visibility="invisible"/>
+    <!-- explanation -->
+    <!-- explanation 1 general intro -->
+    <View
+        android:id="@+id/line_conn_game_tut_story_chat_box_one"
+        android:layout_centerInParent="true"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:background="@drawable/line_conn_game_tut_story_chat_box_one"
+        android:visibility="invisible"/>
+    <!-- explanation 2 click left column-->
+    <View
+        android:id="@+id/line_conn_game_tut_story_chat_box_two"
+        android:layout_centerInParent="true"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:background="@drawable/line_conn_game_tut_story_chat_box_two"
+        android:visibility="invisible"/>
+    <!-- explanation 3 click right column-->
+    <View
+        android:id="@+id/line_conn_game_tut_story_chat_box_three"
+        android:layout_centerInParent="true"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:background="@drawable/line_conn_game_tut_story_chat_box_three"
+        android:visibility="invisible"/>
+    <!-- explanation 4 form a line -->
+    <View
+        android:id="@+id/line_conn_game_tut_story_chat_box_four"
+        android:layout_centerInParent="true"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:background="@drawable/line_conn_game_tut_story_chat_box_four"
+        android:visibility="invisible"/>
+    <!-- explanation 5 start-->
+    <View
+        android:id="@+id/line_conn_game_tut_story_chat_box_five"
+        android:layout_centerInParent="true"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:background="@drawable/line_conn_game_tut_story_chat_box_five"
+        android:visibility="invisible"/>
+
+    <!-- skip button -->
+    <Button
+        android:id="@+id/skip_button_line_conn_tut_fragment"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/skip_button_background"
+        />
+</RelativeLayout>

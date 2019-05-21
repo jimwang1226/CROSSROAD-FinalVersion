@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/ending_activity_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.community.protectcommunity.GameEndingActivity">
+    <View
+        android:id="@+id/ending_score"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <!-- return to main screen button -->
+    <Button
+        android:id="@+id/return_to_mainscreen_button_ending_activity"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/return_button_background"/>
+    <VideoView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/ending_video"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

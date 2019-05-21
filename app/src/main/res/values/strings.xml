@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Crossroad</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="app_version">Beta 2.3</string>
+    <string name="game_enter_line">Welcome to CORSSROAD!</string>
+    <string name="game_enter_title">CREATE CHARACTER</string>
+    <string name="game_enter_input_name">YOUR NAME:</string>
+    <string name="digits">QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm</string>
+    <string name="game_enter_input_gender">YOUR GENDER:</string>
+    <string name="game_enter_boy_line">Hello, I am a boy!</string>
+    <string name="game_enter_girl_line">Hello, I am a girl!</string>
+    <string name="introduction_fragment_line_part1">The Grayson family is new in town. It’s </string>
+    <string name="introduction_fragment_line_part2">’s first day of school. Before classes begins, </string>
+    <string name="introduction_fragment_line_part3">meets with Mr. Pullman, the principal, who arranges a tour for him with two other students: Jack Tang and Mason Albans.</string>
+    <string name="error_invalid_username">Please tell me your name in English!</string>
+    <string name="error_invalid_postcode">Please enter a 4-digit postal code.</string>
+    <string name="please_choose_from_right">Please choose from right!</string>
+    <string name="please_choose_from_left">Please choose from left!</string>s
+    <string name="choice_has_been_taken">This choice has been taken!</string>
+    <string name="postcode">Postcode</string>
+
+</resources>

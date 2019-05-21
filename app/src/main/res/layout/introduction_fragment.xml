@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/introduction_scenario"
+    tools:context="com.community.protectcommunity.IntroductionFragment"
+    tools:ignore="MissingPrefix">
+    <LinearLayout
+        android:id="@+id/introduction_fragment_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:background="@drawable/rectangle_background"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/introduction_fragement_line"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            fontPath="fonts/Oh_Whale.ttf"/>
+    </LinearLayout>
+
+    <!-- return to main screen button -->
+    <Button
+        android:id="@+id/return_to_mainscreen_button_intro_fragment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/return_button_background"/>
+
+    <!-- next button -->
+    <Button
+        android:id="@+id/next_button_intro_fragment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/next_button_background"/>
+</RelativeLayout>

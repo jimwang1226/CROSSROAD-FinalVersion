@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fact_sheet_background"
+    tools:context="com.community.protectcommunity.ForParentsActivity"
+    >
+    <Button
+        android:id="@+id/fact_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/fact_button_background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="190dp"
+        />
+    <Button
+        android:id="@+id/help_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/help_button_background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="190dp"
+        />
+
+    <!-- return to main screen button -->
+    <Button
+        android:id="@+id/for_parents_return_to_mainscreen_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/return_button_background"/>
+</RelativeLayout>

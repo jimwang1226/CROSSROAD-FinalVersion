@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="400dp"
+android:layout_height="100dp"
+android:background="@drawable/line_conn_wrong_answer_popup_background"
+android:layout_gravity="center"
+    >
+</LinearLayout>

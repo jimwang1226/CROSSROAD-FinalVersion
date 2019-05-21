@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/line_conn_game_background"
+    tools:context="com.community.protectcommunity.LineConnectionGameTaskTwoFragment"
+    tools:ignore="MissingPrefix">
+    <!-- title -->
+    <View
+        android:layout_alignParentTop="true"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/line_conn_title"
+        android:visibility="visible"/>
+
+    <!-- text examples -->
+    <!-- text 1 -->
+    <View
+        android:id="@+id/line_conn_task_two_text_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/line_conn_task_two_text_1_normal"
+        android:visibility="visible"/>
+    <!-- text 2 -->
+    <View
+        android:id="@+id/line_conn_task_two_text_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/line_conn_task_two_text_2_normal"
+        android:visibility="visible"/>
+    <!-- text 3 -->
+    <View
+        android:id="@+id/line_conn_task_two_text_three"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/line_conn_task_two_text_3_normal"
+        android:visibility="visible"/>
+
+    <!-- pictures -->
+    <!-- pic 1 -->
+    <View
+        android:id="@+id/line_conn_task_two_pic_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/line_conn_task_two_pic_1_normal"
+        android:visibility="visible"/>
+    <!-- pic 2 -->
+    <View
+        android:id="@+id/line_conn_task_two_pic_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/line_conn_task_two_pic_2_normal"
+        android:visibility="visible"/>
+    <!-- pic 3 -->
+    <View
+        android:id="@+id/line_conn_task_two_pic_three"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/line_conn_task_two_pic_3_normal"
+        android:visibility="visible"/>
+
+    <!-- line -->
+    <!-- 11 -->
+    <View
+        android:id="@+id/line_conn_task_two_line_11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line11"
+        android:visibility="invisible"/>
+
+    <!-- 12 -->
+    <View
+        android:id="@+id/line_conn_task_two_line_12"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line12"
+        android:visibility="invisible"/>
+
+    <!-- 13 -->
+    <View
+        android:id="@+id/line_conn_task_two_line_13"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line13"
+        android:visibility="invisible"/>
+
+    <!-- 21 -->
+    <View
+        android:id="@+id/line_conn_task_two_line_21"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line21"
+        android:visibility="invisible"/>
+
+    <!-- 22 -->
+    <View
+        android:id="@+id/line_conn_task_two_line_22"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line22"
+        android:visibility="invisible"/>
+
+    <!-- 23 -->
+    <View
+        android:id="@+id/line_conn_task_two_line_23"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line23"
+        android:visibility="invisible"/>
+
+    <!-- 31 -->
+    <View
+        android:id="@+id/line_conn_task_two_line_31"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line31"
+        android:visibility="invisible"/>
+
+    <!-- 32 -->
+    <View
+        android:id="@+id/line_conn_task_two_line_32"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line32"
+        android:visibility="invisible"/>
+
+    <!-- 33 -->
+    <View
+        android:id="@+id/line_conn_task_two_line_33"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line33"
+        android:visibility="invisible"/>
+
+    <!-- return to main screen button -->
+    <Button
+        android:id="@+id/return_to_mainscreen_button_line_conn_task_two_fragment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/return_button_background"/>
+
+    <!-- next button -->
+    <Button
+        android:id="@+id/next_button_line_conn_task_two_fragment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/next_button_background"/>
+
+    <!-- reset button -->
+    <!-- knowledge point button -->
+    <Button
+        android:id="@+id/replay_button_line_conn_task_two"
+        android:layout_width="81dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/reset_button_background"
+        android:visibility="visible"
+        />
+
+</RelativeLayout>

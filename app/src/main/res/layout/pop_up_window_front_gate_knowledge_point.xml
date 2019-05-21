@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="450dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@drawable/pop_up_window_front_gate_background">
+    <TextView
+        android:id="@+id/boy_number"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="116dp"
+        android:layout_marginRight="150dp"
+        android:textSize="25dp"
+        android:textColor="#f8f26c"
+        />
+
+    <TextView
+        android:id="@+id/girl_number"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="116dp"
+        android:layout_marginRight="40dp"
+        android:textSize="25dp"
+        android:textColor="#f8f26c"/>
+</RelativeLayout>

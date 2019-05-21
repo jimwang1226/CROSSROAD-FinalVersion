@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="277dp"
+    android:layout_height="150dp"
+    android:background="@drawable/back_to_mainscreen_background"
+    android:layout_gravity="center"
+    >
+    <Button
+        android:id="@+id/back_to_mainscreen_yes_button"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/yes_button_background"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/back_to_mainscreen_no_button"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/no_button_background"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="100dp" />
+</RelativeLayout>

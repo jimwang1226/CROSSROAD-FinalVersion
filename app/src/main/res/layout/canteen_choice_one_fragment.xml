@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/canteen_background"
+    tools:context="com.community.protectcommunity.CanteenChoiceOneFragment"
+    tools:ignore="MissingPrefix">
+
+    <!-- user inside the classroom view -->
+    <!-- set the background according to gender -->
+    <View
+        android:id="@+id/canteen_choice_one_user_inside_view"
+        android:layout_width="146dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="322dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/canteen_user_boy_inside"
+        android:visibility="visible"/>
+
+    <!-- Gracie character view -->
+    <View
+        android:id="@+id/canteen_choice_one_gracie_inside_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gracie_inside_canteen_unhappy"
+        android:visibility="visible"/>
+
+    <!-- jack character view -->
+    <View
+        android:id="@+id/canteen_choice_one_jack_inside_view"
+        android:layout_width="108dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/jack_inside_canteen_half_body"
+        android:visibility="invisible"/>
+
+    <!-- jack chat box one -->
+    <View
+        android:id="@+id/canteen_choice_one_jack_chat_box_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/canteen_choice1_jack_chat_box_one"
+        android:visibility="invisible"/>
+
+    <!-- story chat box one -->
+    <View
+        android:id="@+id/canteen_choice_one_story_chat_box_one"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="450dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/canteen_choice1_story_chat_box_one"
+        android:visibility="invisible"/>
+
+    <!-- return to main screen button -->
+    <Button
+        android:id="@+id/return_to_mainscreen_button_canteen_choice_one"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/return_button_background"/>
+
+    <!-- next button -->
+    <!-- set visibility temporary to visible, need to change to gone later-->
+    <Button
+        android:id="@+id/next_button_canteen_choice_one"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/next_button_background"
+        android:visibility="gone"/>
+
+    <!-- play again button -->
+    <Button
+        android:id="@+id/play_again_button_canteen_choice_one"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/watch_again_background"
+        android:enabled="false"
+        android:visibility="gone"
+        />
+
+    <!-- knowledge point button -->
+    <!-- set visibility temporary to visible, need to change to gone later-->
+    <Button
+        android:id="@+id/knowledge_point_button_canteen_choice_one"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/play_again_button_canteen_choice_one"
+        android:background="@drawable/knowledge_point_background"
+        android:visibility="gone"
+        />
+
+    <!-- skip button -->
+    <Button
+        android:id="@+id/skip_button_canteen_choice_one_fragment"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/skip_button_background"
+        />
+
+</RelativeLayout>

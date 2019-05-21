@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "116086538717",
+    "firebase_url": "https://crossroad-1038b.firebaseio.com",
+    "project_id": "crossroad-1038b",
+    "storage_bucket": "crossroad-1038b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116086538717:android:4c33f74dd59ea259",
+        "android_client_info": {
+          "package_name": "com.community.protectcommunity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2yEBvX78kGxYyeovn-kxESjZ43y71Rbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116086538717-61okie2mcc529jjq6mrugt0du0ptve68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
